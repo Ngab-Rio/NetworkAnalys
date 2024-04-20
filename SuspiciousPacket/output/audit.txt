@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Apr 17 09:44:11 2024
+Invocation: foremost flag.png 
+Output directory: /home/panther/Documents/SourceForensic/Network/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: flag.png
+Start: Wed Apr 17 09:44:11 2024
+Length: 12 KB (12704 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	       4 KB 	          0 	  (1080 x 480)
+1:	00000009.png 	       7 KB 	       4672 	  (1080 x 480)
+Finish: Wed Apr 17 09:44:11 2024
+
+2 FILES EXTRACTED
+	
+png:= 2
+------------------------------------------------------------------
+
+Foremost finished at Wed Apr 17 09:44:11 2024

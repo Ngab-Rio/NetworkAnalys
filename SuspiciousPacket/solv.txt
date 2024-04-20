@@ -1,0 +1,4 @@
+tshark -r suspicious.pcap -T fields -e data -Y "ip.src==192.168.56.1 && icmp.type==8"|tail -n +2 | cut -c 17-48|xxd -r -p
+jadi tujuan dari payload ini adalah mengekstrak data dari file suspicious.pcap diambil hanya "ip.src==192.168.56.1 && icmp.type==8"
+
+dan diambil kolom ke 17-48 dari setiap baris dan outputnya di jadikan  hex dump dari file atau input standar yang diberikan. Opsi -r digunakan untuk membalikkan operasi, dan opsi -p digunakan untuk menentukan bahwa inputnya dalam gaya hexdump biasa tanpa nomor baris atau output ASCII berdampingan.

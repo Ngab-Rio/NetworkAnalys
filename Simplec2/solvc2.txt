@@ -1,0 +1,1 @@
+ tshark-r simplec2.pcapng-Y "ip.src==192.168.239.1" | awk '{print$12}' | sed 's/.aseng.lks.server//' | tr-d “\n”
